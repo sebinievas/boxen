@@ -54,7 +54,7 @@ class sebinievas::development {
     ruby_version => '2.2.2',
   }
 
-  class { 'vagrant': }
+  # class { 'vagrant': }
 
   # include docker
   include nginx
