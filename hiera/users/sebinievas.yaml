@@ -1,0 +1,17 @@
+---
+
+boxen::config::hiera_merge_hierarchy: true
+
+boxen::personal::projects:
+  - mysqldump-all
+  - nginx-default
+
+mysql::port: '3306'
+
+projects::nginx-default::phpversion: 5.5.26
+
+docker::version: '1.7.0'
+
+boxen::personal::osx_apps:
+  - dash
+  - bartender
