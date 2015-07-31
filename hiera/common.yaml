@@ -24,7 +24,7 @@ boxen::personal::includes:
   - git
   - hub
 
-osx::dock::icon_size::size: 50
+osx::dock::icon_size::size: 40
 osx::mouse::smart_zoom::enabled: true
 
 boxen::personal::osx_apps:
